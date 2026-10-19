@@ -1,0 +1,21 @@
+{
+  "name": "tooling-lab",
+  "version": "1.0.0",
+  "description": "Practice repo for learning dev tooling: tests, lint, format, typecheck, hooks and CI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gasanbekov/tooling-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Gasanbekov/tooling-lab/issues"
+  },
+  "homepage": "https://github.com/Gasanbekov/tooling-lab#readme"
+}
