@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "module": "nodenext",
+    "target": "es2023",
+    "types": ["node"],
+    "maxNodeModuleJsDepth": 0
+  },
+  "include": ["src", "test"]
+}
