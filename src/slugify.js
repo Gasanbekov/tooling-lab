@@ -1,3 +1,8 @@
+/**
+ * @param {string} text
+ * @returns {string}
+ */
+
 export function slugify(text) {
   return text
     .toLowerCase()
