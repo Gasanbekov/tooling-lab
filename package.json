@@ -4,7 +4,8 @@
   "description": "Practice repo for learning dev tooling: tests, lint, format, typecheck, hooks and CI.",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Gasanbekov/tooling-lab/issues"
   },
-  "homepage": "https://github.com/Gasanbekov/tooling-lab#readme"
+  "homepage": "https://github.com/Gasanbekov/tooling-lab#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0"
+  }
 }
